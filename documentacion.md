@@ -1,3 +1,4 @@
+tema : jekyll-theme-architect
 #**DOCUMENTACIÓN PROYECTO ORDENAMIENTOS**
 
 
