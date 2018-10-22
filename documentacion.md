@@ -3,18 +3,120 @@
 
 
 
-# Files
+# Código fuente almacenado en github
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
-## Create files and folders
 
-The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
+## Codigo fuente metodos de ordenamientos
 
-## Switch to another file
 
-All your files are listed in the file explorer. You can switch from one to another by clicking a file in the list.
+## ordenamiento inserción
 
-## Rename a file
 
-You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+
+## Rordenamiento mergesort
+
+
+
+## ordenamiento Heapsort
+
+
+## ordenamiento Quicksort
+
+
+## ordenamiento Countingsort
+
+
+## ordenamiento Radixsort
+
+
+
+
+
+# Diagramas de clases
+
+
+
+## Ordenamiento inserción
+
+## Ordenamiento mergesort
+
+## Ordenamiento heapsort
+
+## Ordenamiento quicksort
+
+## Ordenamiento countingsort
+
+## Ordenamiento radixsort
+
+
+# Analisis de velocidades
+
+## Ordenamiento inserción
+
+## Ordenamiento mergesort
+
+## Ordenamiento heapsort
+
+## Ordenamiento quicksort
+
+## Ordenamiento countingsort
+
+## Ordenamiento radixsort
+
+
+
+
+
+
+# Ventajas y desventajas
+|                |ventajas                        |desventajas                         |
+|----------------|-------------------------------|-----------------------------|
+|insercion|        |            |
+|Mezcla        |            |           |
+|quicksort         |||
+|heapsort|
+|countingsort|
+|radixsort|
+## Ordenamiento inserción
+## Ventaja
+## Desventaja
+
+## Ordenamiento mergesort
+## Ventaja
+## Desventaja
+
+## Ordenamiento heapsort
+## Ventaja
+## Desventaja
+
+## Ordenamiento quicksort
+## Ventaja
+## Desventaja
+
+## Ordenamiento countingsort
+## Ventaja
+## Desventaja
+
+## Ordenamiento radixsort
+## Ventaja
+## Desventaja
+
+
+
+
+# Conclusiones
+
+
+## Ordenamiento inserción
+
+## Ordenamiento mergesort
+
+## Ordenamiento heapsort
+
+## Ordenamiento quicksort
+
+## Ordenamiento countingsort
+
+## Ordenamiento radixsort
+
