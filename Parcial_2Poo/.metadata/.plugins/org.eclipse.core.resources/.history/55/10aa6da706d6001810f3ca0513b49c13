@@ -1,0 +1,41 @@
+package orden;
+
+public class Mergesort {
+
+	public void Merge1(int[] arreglo,int [] tmp,int izq, int der)
+	{
+		if(izq<der)
+		{
+			int centro = (izq + der)/2;
+			Merge1(arreglo,tmp,izq,centro);
+			Merge1(arreglo,tmp,centro+1,der);
+			OrdenamientoMezcla(arreglo,tmp,izq,centro+1,der);
+		}
+	}
+	
+	private static void OrdenamientoMezcla(int[] arreglo, int[] tmp,int izq, int der, int rend)
+	{
+		int lend = der-1;
+	    int tpos = izq; 
+	    int lbeg = izq;
+	  
+	    while(izq <= lend && der <= rend){
+	         if(arreglo[izq] < arreglo[der]){
+	               tmp[tpos++] = arreglo[izq++];
+	         }else{
+	               tmp[tpos++] = arreglo[der++];
+	         }
+	    }
+	    while(izq <= lend){
+	         tmp[tpos++] = arreglo[izq++];
+	    }
+	    while(der <= rend){
+	         tmp[tpos++] = arreglo[der++];
+	    }
+	    for(tpos = lbeg; tpos <= rend; tpos++){
+	         arreglo[tpos] = tmp[tpos];
+	    }
+		
+		
+	}
+}
