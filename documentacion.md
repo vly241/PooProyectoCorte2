@@ -1,3 +1,4 @@
+
 #**DOCUMENTACIÓN PROYECTO ORDENAMIENTOS**
 
 
@@ -580,11 +581,13 @@ public class Radixsort {
 |                |ventajas                        |desventajas                         |
 |----------------|-------------------------------|-----------------------------|
 |insercion|   no es muy complejo//tiene un buen funcionamiento si hablamos de listas pequeñas//  requiere de poco espacio    |    no es uno de los motodos mas rapidos//su funcionamiento no es muy bueno si se coloca una lista grande        |
-|Mezcla        |            |           |
-|quicksort         |||
+|Mezcla        | Efectivo para conjuntos de datos a los que se puede acceder secuencialmente         |Por lo que si se desea implementarlo de forma no recursiva, se tendría que emplear una pila y se requiere un espacio adicional de memoria para almacenarlo.|           |
+|quicksort         |No requiere almacenamiento adicional.|su rendimiento en el peor de los casos es similar a los rendimiento promedio del tipo de ordenamiento burbuja osea lento|
+|
 |heapsort|   los datos desordenados los acomoda efectivamente //puede llegar a ser tan bueno como el metodo quicksort // no utiliza memorial adicional    |es un metodo con una estructura complicada y compleja//puede llegar a no ser estable||       |          |
-|countingsort|     |||       |           |
-|radixsort|        |||       |           |
+|countingsort|  La eficiencia de este método de ordenamiento esta entre el mejor y el peor caso.   |Es algo lento, solo puede ordenar números enteros y suele utilizarse en arreglos en los que los números se repiten.//Almacena muchos datos en memoria||       |           |
+|radixsort| Es un método estable que ordena los elementos de forma muy rápida sobre todo cuando es una cantidad grande de números cortos y es constante.       |Su funcionamiento no es igual de bueno cuando son números muy largos.||       |           |
+
 
 
 
