@@ -549,8 +549,11 @@ public class Radixsort {
 ![enter image description here](https://github.com/vly241/PooProyectoCorte2/blob/master/diagramas/quick.png?raw=true)
 
 ## Ordenamiento countingsort
+![enter image description here](https://github.com/vly241/PooProyectoCorte2/blob/master/diagramas/countingSort.jpg?raw=true)
 
 ## Ordenamiento radixsort
+![enter image description here](https://github.com/vly241/PooProyectoCorte2/blob/master/diagramas/radix.jpg?raw=true)
+
 
 
 # Analisis de velocidades
